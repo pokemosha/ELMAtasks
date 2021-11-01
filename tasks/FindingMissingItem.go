@@ -1,7 +1,7 @@
-package task4
+package tasks
 
 // 4. Поиск отсутствующего элемента
-func Solution_four(A []int) int {
+func FindingMissingItem(A []int) int {
 	A = append(A, 0)
 	sch1, sch2 := 0, 0
 	for i := 0; i < len(A); i++ {
