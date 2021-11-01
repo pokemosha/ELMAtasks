@@ -7,8 +7,8 @@ type TaskData struct {
 }
 
 type Result struct {
-	Payloads [][]interface{} `json:"payloads"`
-	Results  []interface{}   `json:"results"`
+	Payload [][]interface{} `json:"payload"`
+	Results []interface{}   `json:"results"`
 }
 
 type Solution struct {

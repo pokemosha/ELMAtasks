@@ -134,7 +134,7 @@ func GetSolution(taskName string) (model.Solution, error) {
 	data.Task = taskName
 	for i := range taskData {
 		data.Results = append(data.Result.Results, result[i])
-		data.Payloads = append(data.Payloads, taskData[i])
+		data.Payload = append(data.Payload, taskData[i])
 	}
 	sol, err := CheckSolution(data)
 	if err != nil {
